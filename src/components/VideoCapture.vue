@@ -148,16 +148,10 @@ onMounted(async () => {
                 {
                     "BinarizationModes": [
                         {
-                            "BlockSizeX": 11,
-                            "BlockSizeY": 11,
+                            "BlockSizeX": 0,
+                            "BlockSizeY": 0,
                             "Mode": "BM_LOCAL_BLOCK",
-                            "ThresholdCompensation": 15
-                        },
-                        {
-                            "BlockSizeX": 21,
-                            "BlockSizeY": 21,
-                            "Mode": "BM_LOCAL_BLOCK",
-                            "ThresholdCompensation": 15
+                            "ThresholdCompensation": 10
                         },
                         {
                             "Mode": "BM_LOCAL_BLOCK"
